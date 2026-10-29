@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Urban Thread | Boys Clothing, Bijainagar</title>
+<meta name="description" content="Urban Thread - Mandapiya Tower, HOC ke paas, Bijainagar. Boys ke sab tarah ke kapde.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Archivo+Black&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+  <a class="logo" href="#" aria-label="Urban Thread"><span>URBAN</span><span>THREAD</span></a>
+
+  <section class="stage" id="stage" aria-label="Kapdon ka rack. Drag karo ya arrow keys dabao">
+    <div class="rod"></div>
+    <div class="items" id="items"></div>
+  </section>
+
+  <div class="info">
+    <p class="name" id="name" aria-live="polite"></p>
+    <div class="toggle" id="toggle" role="group" aria-label="Front ya Back">
+      <button type="button" data-side="front" aria-pressed="true">Front</button>
+      <button type="button" data-side="back" aria-pressed="false">Back</button>
+    </div>
+    <button class="avail" id="avail" type="button">See availability &#8599;</button>
+  </div>
+
+  <div class="marq" aria-hidden="true"><div id="mq"></div></div>
+</main>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-box" role="dialog" aria-modal="true" aria-labelledby="sName">
+    <button class="x" id="close" type="button" aria-label="Band karo">&times;</button>
+    <h2 id="sName"></h2>
+    <p id="sMeta"></p>
+    <div class="sizes" id="sSizes"></div>
+    <p class="price" id="sPrice"></p>
+    <p class="addr">Urban Thread<br>Mandapiya Tower, HOC ke paas<br>Bijainagar, Rajasthan</p>
+    <a class="wa" id="wa" href="#" target="_blank" rel="noopener">WhatsApp par poocho</a>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
